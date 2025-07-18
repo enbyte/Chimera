@@ -1,0 +1,6 @@
+name: Chimera
+main: com.github.enbyte.Chimera.Chimera
+version: 0.0.1
+
+api-version: '1.21.7'
+author: enbyte
