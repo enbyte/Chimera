@@ -15,7 +15,9 @@ public class Chimera extends JavaPlugin {
 		getLogger().info("Chimera v0.0.1-1.21.7 started up.");
 		
 		registerEvents(plugin, 
-				new HashedWorldUpdateRecorder(this));
+				new HashedWorldUpdateRecorder(this),
+				new NoElytraUsage(this),
+				new NoCrystals(this));
 	}
 	
 	@Override
