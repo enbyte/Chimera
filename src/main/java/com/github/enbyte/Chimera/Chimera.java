@@ -7,6 +7,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Chimera extends JavaPlugin {
 	
+	public final boolean DEBUG = false;
+	
 	private static Plugin plugin;
 	@Override
 	public void onEnable() {
