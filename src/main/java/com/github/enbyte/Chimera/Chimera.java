@@ -10,6 +10,7 @@ public class Chimera extends JavaPlugin {
 	public final boolean DEBUG = false;
 	
 	private static Plugin plugin;
+	
 	@Override
 	public void onEnable() {
 		
@@ -19,7 +20,13 @@ public class Chimera extends JavaPlugin {
 		registerEvents(plugin, 
 				new HashedWorldUpdateRecorder(this),
 				new NoElytraUsage(this),
-				new NoCrystals(this));
+				new NoCrystals(this),
+				new NoNetherite(this),
+				new NoDebuffPotions(this),
+				new NoEnderPearlUsage(this),
+				new NoRespawnAnchorBomb(this),
+				new NoEnchants(this)
+			);
 	}
 	
 	@Override

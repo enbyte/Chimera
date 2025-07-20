@@ -4,10 +4,11 @@ import java.util.Set;
 
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityPotionEffectEvent;
 import org.bukkit.potion.PotionEffectType;
 
-public class NoDebuffPotions {
+public class NoDebuffPotions implements Listener {
 	
 	private Chimera plugin;
 	
