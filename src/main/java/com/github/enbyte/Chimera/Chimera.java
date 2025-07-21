@@ -25,7 +25,8 @@ public class Chimera extends JavaPlugin {
 				new NoDebuffPotions(this),
 				new NoEnderPearlUsage(this),
 				new NoRespawnAnchorBomb(this),
-				new NoEnchants(this)
+				new NoEnchants(this),
+				new NoBannedCrafts(this)
 			);
 	}
 	
